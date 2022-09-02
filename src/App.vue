@@ -1,26 +1,37 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <HeaderComponent msg="Welcome to Your Vue.js App"/>
+  <BodyComponent msg="Welcome to Your Vue.js App"/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+
+import 'jquery/dist/jquery.js'
+import 'popper.js/dist/popper.js'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/js/bootstrap.bundle.min.js'
+import 'bootstrap-icons/font/bootstrap-icons.css'
+
+import HeaderComponent from './components/HeaderComponent.vue'
+import BodyComponent from './components/BodyComponent.vue'
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    HeaderComponent,
+    BodyComponent
+}
 }
 </script>
 
 <style>
+
+@import url('https://fonts.googleapis.com/css?family=DM Sans');
+
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: "DM Sans", Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
