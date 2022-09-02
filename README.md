@@ -2,6 +2,10 @@
 Created with Vue3 and Vuex.
 Designs are property of macra.co.id
 
+Production folder on ./dist
+Preview on
+macratest.vercel.app
+
 ## Project setup
 ```
 npm install
