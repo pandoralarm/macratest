@@ -1,4 +1,6 @@
 # macratest
+Created with Vue3 and Vuex.
+Designs are property of macra.co.id
 
 ## Project setup
 ```
